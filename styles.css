@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+}
+button{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: red;
+    outline-color: white;
+}
+#card{
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 5px;
+    min-width: 150px;
+    min-height: 100px;
+    -webkit-box-shadow: -14px 13px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -14px 13px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: -14px 13px 8px 0px rgba(0,0,0,0.75);
+    background-color: aqua;
+}
+#card img{
+    width: 200px;
+    height: 200px;
+}
+#card h1{
+    align-self: center;
+    color: black;
+}
+#card h3{
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    background-color: rgb(235, 18, 18);
+    color: white;
+}
+#card ul{
+    align-self: center;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+#card ul li{
+    background-color: red;
+}
+#listContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.hidden{
+    display: none;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+#pokeball{
+    width: 250px;
+    height: 250px;
+    animation: rotation 2s;
+}
